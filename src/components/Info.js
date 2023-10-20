@@ -48,7 +48,7 @@ const UserInfo = () => {
     <section className="section">
       <Wrapper className="section-center">
         {items.map((item) => {
-          return <Item {...item} key={item.key} />;
+          return <Item {...item} key={item.id} />;
         })}
       </Wrapper>
     </section>
